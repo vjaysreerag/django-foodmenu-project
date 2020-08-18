@@ -9,7 +9,7 @@ def home(request):
 def indian(request):
     return render(request,'menuapp/indian.html')
 def chinese(request):
-        return render(request,'menuapp/chinese.html')
+    return render(request,'menuapp/chinese.html')
 def vegindian(request):
     vegind=models.VegIndian()
     return render(request,'menuapp/vegindian.html',{'vegind':vegind})

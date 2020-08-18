@@ -6,7 +6,10 @@ app_name='menuapp'
 
 urlpatterns=[
   path('',views.home,name='home'),
-  path('',views.vegindian,name='vegindian'),
+  path('',views.indian,name='indian'),
+  path('',views.chinese,name='chinese'),
+  path('',views.vegindian,name='vegindian')
+
 
 
 ]  
