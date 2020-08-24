@@ -1,0 +1,9 @@
+{% extends "menuapp/base.html" %}
+{% block content %}
+    {% for post in nonvegcposts %}
+         <div>
+                <h1> {{ post.name }} </h1>
+                <h2> ${{ post.price }} </h2>
+        </div>
+    {% endfor %}
+{% endblock content %}

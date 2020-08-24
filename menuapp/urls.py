@@ -7,4 +7,7 @@ urlpatterns=[
   path('indian/',views.indian,name='indian'),
   path('chinese/',views.chinese,name='chinese'),
   path('indian/vegindian/',views.vegindian,name='vegindian'),
+  path('indian/nonvegindian/',views.nonvegindian,name='nonvegindian'),
+  path('chinese/vegchinese/',views.vegchinese,name='vegchinese'),
+  path('chinese/nonvegchinese/',views.nonvegchinese,name='nonvegchinese'),
 ]  
